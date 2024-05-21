@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: c4474ef78acc28147a445292f6e8bcd9
+guid: d2c3d861eddff1a4da61d4c7dcf54941
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bridle
-    second: {fileID: 2100000, guid: d21565afb0532c8429e7b91e1351a2ec, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Horse Hair
-    second: {fileID: 2100000, guid: cc5b7789dddddff47a01d9f7922b8f76, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: black
-    second: {fileID: 2100000, guid: a779c100f64b47a4d9b0cdbecb62416b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: stick horse
-    second: {fileID: 2100000, guid: 31fce156378d9354ea21431dd0b1d90b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: wooden stick
-    second: {fileID: 2100000, guid: b1655be0301d07748bfc9f642a72f875, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
