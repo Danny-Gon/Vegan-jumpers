@@ -10,6 +10,12 @@ public class CamaraMove : MonoBehaviour
 
     void LateUpdate()
     {
-        transform.position = player.position + offset;
+        Vector3 desiredPosition = player.position + offset;
+
+        Vector3 smoothPosition = Vector3.Lerp(transform.position, desiredPosition, cameraSpeed*Time.deltaTime);
+
+        transform.position = smoothPosition;
+
+        transform.LookAt(player);
     }
 }
