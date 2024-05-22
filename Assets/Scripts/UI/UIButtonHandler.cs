@@ -11,6 +11,7 @@ public class UIButtonHandler : MonoBehaviour
     public Button options;
     public Button restart;
     public Button help;
+    public Button removeAdds;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class UIButtonHandler : MonoBehaviour
             options.onClick.AddListener(OnButtonClick);
             restart.onClick.AddListener(OnButtonClick);
             help.onClick.AddListener(OnButtonClick);
+            removeAdds.onClick.AddListener(OnButtonClick);
         }
     }
 
