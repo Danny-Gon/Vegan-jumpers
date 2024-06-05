@@ -12,8 +12,11 @@ public class UIButtonHandler : MonoBehaviour
     public Button restart;
     public Button help;
     public Button removeAdds;
+    public Button horseOne;
+    public Button horseTwo;
+    public Button horseThree;
+    public Button horseFour;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (playBttn != null) 
@@ -23,6 +26,10 @@ public class UIButtonHandler : MonoBehaviour
             restart.onClick.AddListener(OnButtonClick);
             help.onClick.AddListener(OnButtonClick);
             removeAdds.onClick.AddListener(OnButtonClick);
+            horseOne.onClick.AddListener(OnButtonClick);
+            horseTwo.onClick.AddListener(OnButtonClick);
+            horseThree.onClick.AddListener(OnButtonClick);
+            horseFour.onClick.AddListener(OnButtonClick);
         }
     }
 
