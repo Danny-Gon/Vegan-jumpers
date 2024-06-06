@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
-    //private float speed = 25;
+    private float speed = 25;
     private PlayerController playerController;
     private float leftBound = -15;
 
@@ -15,6 +15,9 @@ public class MoveLeft : MonoBehaviour
 
     void Update()
     {
+
+        transform.Translate(Vector3.right * Time.deltaTime * speed);
+
         /*if (playerControllerScript.gameOver == false) --- Esto si vamos a finalizar el juego cuando chcoca con un objeto
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);

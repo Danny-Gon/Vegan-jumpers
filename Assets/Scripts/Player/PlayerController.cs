@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float jumpForce = 10;
+    public float jumpForce = 5;
     public float gravityModifier;
     public bool isOnGround = true;
     //private float speed = 30; -- Sobra, hace parte del movimiendo
@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
    
     void Update()
     {
-        //transform.Translate(Vector3.right * Time.deltaTime * speed); -- Sobra es la del mov de frente
+        //transform.Translate(Vector3.left * Time.deltaTime * speed); -- Sobra es la del mov de frente
+
         if(Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
