@@ -8,27 +8,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CINTURON
-    second: {fileID: 2100000, guid: f55940ede8c7788419a4f76156130a71, type: 2}
+    second: {fileID: 2100000, guid: a282fae90e8485f49a4cc4267c1b96ff, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CUELLO
-    second: {fileID: 2100000, guid: dcd4fe43906ba234ebcb5e3d835ad0a8, type: 2}
+    second: {fileID: 2100000, guid: 13f7a6fa7f93e334d8c43bd6beceb15b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: caf5a89dc186ce64e9ddcac1f9402be6, type: 2}
+    second: {fileID: 2100000, guid: 7762309f53294f04b843ddcf54d59e82, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PELO
-    second: {fileID: 2100000, guid: 7ecab80067e21db419d8560d6cfa570a, type: 2}
+    second: {fileID: 2100000, guid: 16e331b401347854a8d8e0f20cedd250, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PIERNAS
-    second: {fileID: 2100000, guid: 22f7c7acc5a1a814c98e170c3b607fc8, type: 2}
+    second: {fileID: 2100000, guid: 99a86c8b840cbf04489504c5b7ab16e2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
