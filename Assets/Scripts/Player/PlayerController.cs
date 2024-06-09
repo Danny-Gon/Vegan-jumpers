@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float jumpForce = 5;
+    public float jumpForce = 10;
     public float gravityModifier;
     public bool isOnGround = true;
     //private float speed = 30; -- Sobra, hace parte del movimiendo

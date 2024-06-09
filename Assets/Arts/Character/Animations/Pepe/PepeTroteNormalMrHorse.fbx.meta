@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 30d7eca9f223acc49a5a1042614d25a3
+guid: fc1fec4e7b246bd40992d86952c0233b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,28 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: 2.001
+    second: {fileID: 2100000, guid: f8e808e7b12a45941badec7dec145984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: CINTURON
-    second: {fileID: 2100000, guid: f55940ede8c7788419a4f76156130a71, type: 2}
+    second: {fileID: 2100000, guid: cf9e9bb569260f34bb06e54f1f7c7d29, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CUELLO
-    second: {fileID: 2100000, guid: dcd4fe43906ba234ebcb5e3d835ad0a8, type: 2}
+    second: {fileID: 2100000, guid: 41b1a576f9df85349bc4c7f1ecd5a532, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: caf5a89dc186ce64e9ddcac1f9402be6, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: e2f35d464eeae8b4b9d2ede14dde9ae8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PELO
-    second: {fileID: 2100000, guid: 7ecab80067e21db419d8560d6cfa570a, type: 2}
+    second: {fileID: 2100000, guid: 2be0b709799c1d347b635445aa50d1d5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PIERNAS
-    second: {fileID: 2100000, guid: 22f7c7acc5a1a814c98e170c3b607fc8, type: 2}
+    second: {fileID: 2100000, guid: acca4dc662c3caf469d69708a6f166fa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
