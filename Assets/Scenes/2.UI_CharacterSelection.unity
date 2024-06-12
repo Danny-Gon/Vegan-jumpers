@@ -1425,7 +1425,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character1: {fileID: 1553868083}
-  character2: {fileID: 0}
   configuration: {fileID: 11400000, guid: fdeb412d4af654446906c994881a9d91, type: 2}
 --- !u!1 &1553868078
 GameObject:

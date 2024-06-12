@@ -7,16 +7,16 @@ using UnityEngine.SceneManagement;
     public class ChooseScreen : MonoBehaviour
     {
         [SerializeField] private ChooseCharacterController character1;
-        [SerializeField] private ChooseCharacterController character2;
+        //[SerializeField] private ChooseCharacterController character2;
         [SerializeField] private PlayerConfiguration configuration;
 
         private void Start()
         {
             character1.Subscribe();
-            character2.Subscribe();
+            //character2.Subscribe();
 
             character1.Initialize();
-            character2.Initialize();
+            //character2.Initialize();
         }
 
         public void Play()
@@ -29,6 +29,6 @@ using UnityEngine.SceneManagement;
         private void OnDestroy()
         {
             character1.UnSubscribe();
-            character2.UnSubscribe();
+            //character2.UnSubscribe();
         }
     }

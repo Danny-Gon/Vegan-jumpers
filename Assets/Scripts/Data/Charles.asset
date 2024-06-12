@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Charles
   m_EditorClassIdentifier: 
   characterName: Charles
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: 21300000, guid: 9adb136a811a56b438032344ef03a074, type: 3}
   characterPrefab: {fileID: 845295826610003738, guid: 732fc40f8245693498107ce1a373889e, type: 3}
