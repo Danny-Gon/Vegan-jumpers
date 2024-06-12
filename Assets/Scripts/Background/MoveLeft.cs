@@ -16,7 +16,7 @@ public class MoveLeft : MonoBehaviour
     void Update()
     {
 
-        transform.Translate(Vector3.right * Time.deltaTime * speed);
+        transform.Translate(Vector3.left * Time.deltaTime * speed);
 
         /*if (playerControllerScript.gameOver == false) --- Esto si vamos a finalizar el juego cuando chcoca con un objeto
         {

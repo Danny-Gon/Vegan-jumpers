@@ -3,7 +3,37 @@ guid: 712a28e20a7f29647a3f113a07f43180
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3
+    second: {fileID: 2100000, guid: 6f37895b4f66626478ea6371ff948925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CINTURON
+    second: {fileID: 2100000, guid: db00fde7c8cd42e4ab360451b8c57c12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CUELLO
+    second: {fileID: 2100000, guid: e7006cf12c842a7439c74e7c1748faee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: dcb613dc8fe5725429c3b1942e7968e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PELO
+    second: {fileID: 2100000, guid: 80f6bced81aa58b479b7a747c41c876d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIERNAS
+    second: {fileID: 2100000, guid: ee8f8c684bbc7df46b07db789496b7cc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 4249f562fa4aa6b4eb35abfe997d9583
+guid: 90808f8fe81eeb74a975812c76cb9448
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Robot Brute
-    second: {fileID: 2100000, guid: 9b3ff13c80965964d8a9b422c50f28df, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
