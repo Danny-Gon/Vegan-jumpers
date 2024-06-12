@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/UI_InitialMenu.unity
+    path: Assets/Scenes/1.UI_InitialMenu.unity
     guid: 4a592731e77916a448c8f0ad29175fe1
   - enabled: 1
-    path: Assets/Scenes/PistaLateral.unity
+    path: Assets/Scenes/4.PistaLateral.unity
     guid: 7b3a032478da0ce4fa724fca6eead041
   m_configObjects: {}
