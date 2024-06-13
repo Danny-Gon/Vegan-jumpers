@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PistaLateral.unity
     guid: 7b3a032478da0ce4fa724fca6eead041
+  - enabled: 1
+    path: Assets/Scenes/UI_Options.unity
+    guid: 5dbee41806d517c4a89a0f4e59b967fa
   m_configObjects: {}
