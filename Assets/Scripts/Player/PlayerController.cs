@@ -33,5 +33,14 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         isOnGround = true;
+
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            // Imprime "Colisión" en la consola
+            Debug.Log("Obstacle");
+        }
     }
+
+
+
 }

@@ -21,6 +21,16 @@ public class SpawnManager : MonoBehaviour
         //Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation); Esto también mirar si es útil
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        // Verifica si el objeto con el que colisionó tiene la etiqueta "ObstacleLimit"
+        if (collision.gameObject.CompareTag("ObstacleLimit"))
+        {
+            // Imprime "Colisión" en la consola
+            Debug.Log("Colisión");
+        }
+    }
+
     void SpawnObstacle()
     {
         Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
