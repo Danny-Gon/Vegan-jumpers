@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde76de3124b4cb419a4445cc8f32de4, type: 3}
+  m_Name: Charles
+  m_EditorClassIdentifier: 
+  characterName: Charles
+  characterSprite: {fileID: 21300000, guid: 9adb136a811a56b438032344ef03a074, type: 3}
+  characterPrefab: {fileID: 845295826610003738, guid: 732fc40f8245693498107ce1a373889e, type: 3}
