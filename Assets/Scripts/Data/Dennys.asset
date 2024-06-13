@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Dennys
   m_EditorClassIdentifier: 
   characterName: Dennys
-  characterSprite: {fileID: 21300000, guid: 95623023f0d5712458cde992128c29ee, type: 3}
-  characterPrefab: {fileID: 2978555026492331807, guid: b001c1821177dd44b933c0315156a5f9, type: 3}
+  characterSprite: {fileID: 21300000, guid: 3a9b73c02e8aaa54aac58c7686a65fa8, type: 3}

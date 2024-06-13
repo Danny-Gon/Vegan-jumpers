@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public CharacterData id;
     private Rigidbody playerRb;
     public float jumpForce = 10;
-    public float gravityModifier;
+    public float gravityModifier = 2f;
     public bool isOnGround = true;
     //private float speed = 30; -- Sobra, hace parte del movimiendo
 
@@ -15,13 +15,16 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        Physics.gravity *= gravityModifier;
+        playerRb.useGravity = false;
+        //Physics.gravity *= gravityModifier;
         
     }
 
    
     void Update()
     {
+        playerRb.AddForce(Vector3.down * gravityModifier);
+        
         //transform.Translate(Vector3.left * Time.deltaTime * speed); -- Sobra es la del mov de frente
 
         if(Input.GetKeyDown(KeyCode.Space) && isOnGround)
@@ -33,8 +36,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        isOnGround = true;
-
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isOnGround = true;
+        }
+        
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             // Imprime "Colisión" en la consola

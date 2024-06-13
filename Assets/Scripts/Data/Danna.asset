@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Danna
   m_EditorClassIdentifier: 
   characterName: Danna
-  characterSprite: {fileID: 0}
-  characterPrefab: {fileID: 3661668184371100338, guid: 6f5c91a6e47c7f54d97f3a1be04fe92b, type: 3}
+  characterSprite: {fileID: 21300000, guid: 1d3fe24d37b985847996803f309d7827, type: 3}

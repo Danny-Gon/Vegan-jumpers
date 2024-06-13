@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: {fileID: 11400000, guid: 2c36d00307010f649ade063ef23aba6c, type: 2}
-  jumpForce: 10
+  jumpForce: 12
   gravityModifier: 2
   isOnGround: 1
 --- !u!54 &4514019337791663985
