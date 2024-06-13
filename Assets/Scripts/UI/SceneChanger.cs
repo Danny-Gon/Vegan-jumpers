@@ -5,23 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    private SceneTransition sceneTransition;
+    
+    public GameObject characterSelector;
 
     private void Start()
     {
-        // Encontrar el objeto SceneTransition en la escena
-        sceneTransition = FindObjectOfType<SceneTransition>();
+        characterSelector.SetActive(false);
     }
 
-    public void ChangeScene(string sceneName)
+    public void CharacterSelector()
     {
-        if (sceneTransition != null)
-        {
-            sceneTransition.FadeToScene(sceneName);
-        }
-        else
-        {
-            Debug.LogWarning("No SceneTransition component found in the scene.");
-        }
+        characterSelector.SetActive(true);
+    }
+
+    public void ChangeScene(int sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }
+

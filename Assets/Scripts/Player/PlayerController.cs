@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] public CharacterData id;
     private Rigidbody playerRb;
     public float jumpForce = 10;
     public float gravityModifier;

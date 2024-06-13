@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: 2.002
+    second: {fileID: 2100000, guid: f1f07e8808e7635488b313159996d69c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: CINTURON
     second: {fileID: 2100000, guid: fffe24788f6ddfe42befedc25386810e, type: 2}
   - first:
@@ -29,6 +34,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: PELO
     second: {fileID: 2100000, guid: ba784323b666aff4ea3dc903cc12b8db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PEPE
+    second: {fileID: 2100000, guid: af9ea992577984449b52b23d32178e35, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

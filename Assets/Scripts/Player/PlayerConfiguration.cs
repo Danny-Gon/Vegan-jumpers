@@ -6,7 +6,12 @@ namespace Configurations
     [CreateAssetMenu(fileName = "Configuration/Player", menuName = "PlayerConfiguration")]
     public class PlayerConfiguration : ScriptableObject
     {
-        public List<CharacterData> characters;
-        public Dictionary<int, CharacterData> playerSelections = new Dictionary<int, CharacterData>();
+        public List<PlayerController> characters;
+        public CharacterData playerSelected;
+
+        public PlayerController findCharacter(CharacterData id)
+        {
+            return characters.Find(x => x.id == id);
+        }
     }
 }

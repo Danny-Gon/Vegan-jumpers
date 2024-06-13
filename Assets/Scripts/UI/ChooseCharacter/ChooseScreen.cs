@@ -21,8 +21,6 @@ using UnityEngine.SceneManagement;
 
         public void Play()
         {
-            Debug.Log(configuration.playerSelections[1].characterName);
-            Debug.Log(configuration.playerSelections[2].characterName);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 

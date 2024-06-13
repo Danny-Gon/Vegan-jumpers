@@ -14,9 +14,9 @@ namespace Instantiate
             _config = config;
         }
 
-        public GameObject Create(int playerNumber)
+        public PlayerController Create(CharacterData id)
         {
-            GameObject instantiateCharacter = _config.playerSelections[playerNumber].characterPrefab;
+            PlayerController instantiateCharacter = _config.findCharacter(id);
             return UnityEngine.Object.Instantiate(instantiateCharacter);
 
         }

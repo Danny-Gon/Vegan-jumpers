@@ -316,7 +316,7 @@ Transform:
   m_GameObject: {fileID: 2196554104209541396}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4845729, y: 0.018576194, z: 0.0089150155, w: 0.8745082}
-  m_LocalPosition: {x: -0.0010800762, y: 0.9537779, z: 0.007393837}
+  m_LocalPosition: {x: -0, y: 1.04, z: 0}
   m_LocalScale: {x: 0.99999976, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -858,8 +858,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1056571897064823700}
   - component: {fileID: 7498446760141569600}
+  - component: {fileID: 3356842491728207929}
+  - component: {fileID: -6069486029921977238}
+  - component: {fileID: 2389583452627278448}
   m_Layer: 0
-  m_Name: VaqueraTroteNormalLadyHorse
+  m_Name: Danna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -904,6 +907,72 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3356842491728207929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3661668184371100338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fd8fb3454582b4fb5eee460dafa3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: {fileID: 11400000, guid: 7610d502c35bff64e990e41f1ff8776e, type: 2}
+  jumpForce: 12
+  gravityModifier: 2
+  isOnGround: 1
+--- !u!54 &-6069486029921977238
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3661668184371100338}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 0
+--- !u!136 &2389583452627278448
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3661668184371100338}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.8559163
+  m_Height: 2.8936663
+  m_Direction: 1
+  m_Center: {x: 2.3464867e-16, y: 1.3459334, z: 0.07901192}
 --- !u!1 &3676807148185770974
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using UnityEngine;
     {
         [Header("Requeriments")]
         public Transform positionPlayer1;
-        public Transform positionPlayer2;
+        //public Transform positionPlayer2;
 
         [Header("Factory configuration")]
         public PlayerConfiguration configuration;
@@ -20,11 +20,11 @@ using UnityEngine;
 
         private void Start()
         {
-            GameObject player1 = _characterFactory.Create(1);
-            GameObject player2 = _characterFactory.Create(2);
+            PlayerController player1 = _characterFactory.Create(configuration.playerSelected);
+            //GameObject player2 = _characterFactory.Create(2);
 
             player1.transform.position = positionPlayer1.position;
-            player2.transform.position = positionPlayer2.position;
+            //player2.transform.position = positionPlayer2.position;
         }
     }
 
