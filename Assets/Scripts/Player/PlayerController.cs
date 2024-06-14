@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -7,7 +5,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public CharacterData id;
     private Rigidbody playerRb;
     public float jumpForce = 10;
-    public float gravityModifier = 2f;
     public bool isOnGround = true;
     //private float speed = 30; -- Sobra, hace parte del movimiendo
 
@@ -15,16 +12,13 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        playerRb.useGravity = false;
-        //Physics.gravity *= gravityModifier;
+        playerRb.useGravity = true;
         
     }
 
    
     void Update()
     {
-        playerRb.AddForce(Vector3.down * gravityModifier);
-        
         //transform.Translate(Vector3.left * Time.deltaTime * speed); -- Sobra es la del mov de frente
 
         if(Input.GetKeyDown(KeyCode.Space) && isOnGround)

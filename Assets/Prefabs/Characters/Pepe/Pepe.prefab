@@ -1211,8 +1211,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 609663201420296149}
-  - component: {fileID: 4503099072181828067}
   - component: {fileID: 5634082043435085760}
+  - component: {fileID: 4503099072181828067}
   - component: {fileID: 6750481278225513027}
   - component: {fileID: 3984573589141438807}
   m_Layer: 0
@@ -1240,22 +1240,6 @@ Transform:
   - {fileID: 543762901005938507}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4503099072181828067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6539145047509671461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7fd8fb3454582b4fb5eee460dafa3b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: {fileID: 11400000, guid: 5f9ad710ce83fff4b87237007b5da473, type: 2}
-  jumpForce: 12
-  gravityModifier: 2
-  isOnGround: 1
 --- !u!95 &5634082043435085760
 Animator:
   serializedVersion: 5
@@ -1277,6 +1261,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4503099072181828067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6539145047509671461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fd8fb3454582b4fb5eee460dafa3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: {fileID: 11400000, guid: 5f9ad710ce83fff4b87237007b5da473, type: 2}
+  jumpForce: 20
+  isOnGround: 1
 --- !u!54 &6750481278225513027
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1285,7 +1284,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6539145047509671461}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 1.8
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}

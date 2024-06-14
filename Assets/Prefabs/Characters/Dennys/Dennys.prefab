@@ -827,10 +827,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4890488725389144555}
+  - component: {fileID: 7712812362099918678}
   - component: {fileID: 3779151469783809741}
   - component: {fileID: 1999036293222459999}
   - component: {fileID: 8288071783506739291}
-  - component: {fileID: 7712812362099918678}
   m_Layer: 0
   m_Name: Dennys
   m_TagString: Untagged
@@ -856,6 +856,27 @@ Transform:
   - {fileID: 4723845389711092385}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7712812362099918678
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4888709055130709913}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 024072cae7b67254ab4ee2804c600553, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3779151469783809741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,8 +890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: {fileID: 11400000, guid: 7708d9cee9952cd4f8da3d449af31d21, type: 2}
-  jumpForce: 12
-  gravityModifier: 2
+  jumpForce: 20
   isOnGround: 1
 --- !u!54 &1999036293222459999
 Rigidbody:
@@ -880,7 +900,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4888709055130709913}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 1.8
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -922,27 +942,6 @@ CapsuleCollider:
   m_Height: 4.6680965
   m_Direction: 1
   m_Center: {x: 6.533176e-17, y: 2.3665738, z: 0.035847306}
---- !u!95 &7712812362099918678
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4888709055130709913}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 024072cae7b67254ab4ee2804c600553, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4905235168442287567
 GameObject:
   m_ObjectHideFlags: 0

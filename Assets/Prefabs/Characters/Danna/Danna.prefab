@@ -920,8 +920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: {fileID: 11400000, guid: 7610d502c35bff64e990e41f1ff8776e, type: 2}
-  jumpForce: 12
-  gravityModifier: 2
+  jumpForce: 20
   isOnGround: 1
 --- !u!54 &-6069486029921977238
 Rigidbody:
@@ -931,7 +930,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3661668184371100338}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 1.8
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
