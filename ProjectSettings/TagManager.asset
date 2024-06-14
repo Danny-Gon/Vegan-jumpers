@@ -7,6 +7,7 @@ TagManager:
   - Obstacle
   - ObstacleLimit
   - Ground
+  - BG 2
   layers:
   - Default
   - TransparentFX

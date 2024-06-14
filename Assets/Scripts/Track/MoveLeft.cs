@@ -1,10 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
-    private float speed = 25;
+    public float speed = 25;
     private float initialSpeed;
     private PlayerController playerController;
     private float leftBound = -15;
