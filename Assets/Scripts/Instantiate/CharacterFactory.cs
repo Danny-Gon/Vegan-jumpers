@@ -1,4 +1,5 @@
 using Configurations;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
@@ -16,10 +17,8 @@ namespace Instantiate
 
         public PlayerController Create(CharacterData id)
         {
-            PlayerController instantiateCharacter = _config.findCharacter(id);
-            return UnityEngine.Object.Instantiate(instantiateCharacter);
-
+            GameObject target = _config.findCharacter(id).gameObject;
+            return PhotonNetwork.Instantiate(target.name, Vector3.zero, target.transform.rotation).GetComponent<PlayerController>();
         }
-
     }
 }

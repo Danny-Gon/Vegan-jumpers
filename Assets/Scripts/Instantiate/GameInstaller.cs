@@ -20,11 +20,13 @@ using UnityEngine;
 
         private void Start()
         {
-            PlayerController player1 = _characterFactory.Create(configuration.playerSelected);
-            //GameObject player2 = _characterFactory.Create(2);
+            SpawnPlayer();
+        }
 
+        private void SpawnPlayer()
+        {
+            PlayerController player1 = _characterFactory.Create(configuration.playerSelected);
             player1.transform.position = positionPlayer1.position;
-            //player2.transform.position = positionPlayer2.position;
         }
     }
 
