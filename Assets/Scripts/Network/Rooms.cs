@@ -48,7 +48,7 @@ public class Rooms : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
         print($"Has Connected To Room{PhotonNetwork.CurrentRoom.Name}!");
-        PhotonNetwork.LoadLevel("1.UI_InitialMenu");
+        PhotonNetwork.LoadLevel("2.PistaLateral");
     }
 
     public override void OnJoinRoomFailed(short returnCode, string message)
